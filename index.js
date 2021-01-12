@@ -17,10 +17,12 @@ function makeSound(button){
       var audio = new Audio("sounds/tom-1.mp3");
       audio.play();
       break;
+      
     case "a":
       var audio = new Audio("sounds/tom-2.mp3");
       audio.play();
       break;
+
     case "s":
       var audio = new Audio("sounds/tom-3.mp3");
       audio.play();
@@ -40,6 +42,7 @@ function makeSound(button){
       var audio = new Audio("sounds/crash.mp3");
       audio.play();
       break;
+
     case "l":
       var audio = new Audio("sounds/kick-bass.mp3");
       audio.play();
